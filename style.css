@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    
+}
+.header{
+    padding: 0 45px;
+    background-color:maroon;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease-out;
+}
+.nav a:hover{
+    color:bisque;
+    transform:rotate(6deg);
+   
+}
+
+.nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    
+}
+
+.nav li{
+    margin-left: 20px;
+}
+.section{
+    background-color:lightcyan;
+    padding: 60px 45px;
+    display: flex;
+    justify-content: center;
+}
+.section-in{
+    max-width: 760px;
+}
+.section h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin: 0;
+}
+.section p{
+    font-size: 1.18rem;
+    line-height: 1.6;
+}
+.button{
+    background-color:lightgreen;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1.18rem;
+    display: inline-block;
+}
+.courses{
+    background-color:honeydew;
+    padding: 60px 45px;
+}
+.courses-pup{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-column-gap: 45px;
+}
+.courses-pupragay h3{
+    color:red;
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 0;
+}
+.courses-pupragay p{
+    margin: 0;
+    line-height: 1.6;
+    color: maroon;
+}
+.footer{
+    text-align: center;
+    padding: 20px 0;
+    color:grey;
+    font-size: .9rem;
+}
